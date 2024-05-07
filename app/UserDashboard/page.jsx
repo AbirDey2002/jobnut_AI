@@ -21,11 +21,7 @@ const getJobsById = async(id) => {
 
 export default async function UserDashboard(){
 
-  const session = await getServerSession();
-  const user = await getIdByEmail(session?.user?.email);
-  const appliedJobs = await getJobsById(user[0]._id);
-
   return (
-    <UserDashboardClient jobs={appliedJobs} user={user[0]._id}/>
+    <UserDashboardClient />
   )
 }

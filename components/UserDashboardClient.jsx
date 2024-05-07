@@ -9,7 +9,7 @@ import { useRouter } from "next/navigation";
 import Card from "./cardApplied";
 
 
-export default function UserDashboardClient({jobs,user}){
+export default function UserDashboardClient(){
 
   const router = useRouter();
   const [sidebar, setSidebar] = useState(false);
@@ -55,11 +55,12 @@ export default function UserDashboardClient({jobs,user}){
         {jobs.length === 0 ? (
           <div className="py-[120px] mx-auto"><div>Looks empty :(</div></div>
         ):(
-          <div className="flex gap-5 py-5 px-5">
-            {jobs.map((job) => (
-              <Card key={job._id} id={job._id} name={job.companyName} position={job.position} salary={job.salary} desc={job.responsibilities}/>
-            ))}
-          </div>
+          // <div className="flex gap-5 py-5 px-5">
+          //   {jobs.map((job) => (
+          //     <Card key={job._id} id={job._id} name={job.companyName} position={job.position} salary={job.salary} desc={job.responsibilities}/>
+          //   ))}
+          // </div>
+          <div className="h-[300px]"></div>
         )}
         
         
