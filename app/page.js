@@ -60,7 +60,7 @@ export default function Home() {
                   <TiStarHalfOutline className="text-2xl text-pink-500"/>
                 </div>
                 <div className="px-7 pt-5 text-sm">
-                  "JOBNUT.AI's user friendly interface and personalized job recommendations set it apart. The ease to use coupled with a high success rate, made JOBNUT my go-to job portal. I secured a new position in record time, thanks to JOBNUT.AI" 
+                  JOBNUT.AI&apos;s user friendly interface and personalized job recommendations set it apart. The ease to use coupled with a high success rate, made JOBNUT my go-to job portal. I secured a new position in record time, thanks to JOBNUT.AI 
                 </div>
                 <div className="px-7 pt-5 flex justify">
                   <div className="border-2 border-pink-500 rounded-full w-fit px-3 py-1 font-bold text-3xl bg-pink-500 text-white">D</div>
@@ -76,7 +76,7 @@ export default function Home() {
                     <TiStarOutline className="text-2xl text-green-500"/>
                   </div>
                   <div className="px-7 pt-5 text-sm">
-                    "Unlocking exclusive opportunities: JOBNUT's seamless connection with top employers, validated by our numeric social approval, make career success a reality. proud to be a part of this thriving community "
+                    &quot;Unlocking exclusive opportunities: JOBNUT&apos;s seamless connection with top employers, validated by our numeric social approval, make career success a reality. proud to be a part of this thriving community&quot; 
                   </div>
               </div>
             </div>
@@ -90,7 +90,7 @@ export default function Home() {
                   <TiStarOutline className="text-2xl text-yellow-500"/>
                 </div>
                 <div className="px-5 pt-4 text-sm">
-                  "I appreciate JOBNUT's commitment to professional growth. The resources available, from articles to courses, have significantly enhanced my skills. Jobnut isn't just a job portal, it's a platform that invests in your success!"
+                  &quot;I appreciate JOBNUT&apos;s commitment to professional growth. The resources available, from articles to courses, have significantly enhanced my skills. Jobnut isn't just a job portal, it's a platform that invests in your success!&quot;
                 </div>
               </div>
               <div className="h-[300px] w-[250px] bg-white/95 rounded-xl shadow-xl">
@@ -102,7 +102,7 @@ export default function Home() {
                   <TiStarOutline className="text-2xl text-teal-500"/>
                 </div>
                 <div className="px-5 pt-4 text-sm">
-                  "I appreciate JOBNUT's commitment to professional growth. The resources available, from articles to courses, have significantly enhanced my skills. Jobnut isn't just a job portal, it's a platform that invests in your success!"
+                  &apos;I appreciate JOBNUT&apos;s commitment to professional growth. The resources available, from articles to courses, have significantly enhanced my skills. Jobnut isn&apos;t just a job portal, it&apos;s a platform that invests in your success!&apos;
                 </div>
                 <div className="px-7 pt-5 flex justify">
                   <div className="border-2 border-teal-500 rounded-full w-fit px-3 py-1 font-bold text-3xl bg-teal-500 text-white">A</div>
