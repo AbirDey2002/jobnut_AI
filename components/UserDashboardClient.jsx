@@ -57,7 +57,7 @@ export default function UserDashboardClient({jobs,user}){
         ):(
           <div className="flex gap-5 py-5 px-5">
             {jobs.map((job) => (
-              <Card id={job._id} name={job.companyName} position={job.position} salary={job.salary} desc={job.responsibilities}/>
+              <Card key={job._id} id={job._id} name={job.companyName} position={job.position} salary={job.salary} desc={job.responsibilities}/>
             ))}
           </div>
         )}

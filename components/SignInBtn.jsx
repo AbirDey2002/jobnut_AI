@@ -100,7 +100,7 @@ export default function SignInBtn(){
                         </form>
                       </div>
     
-                      <div className="flex justify-end underline text-xs pt-3"><button onClick={closeModal}><Link href={"/SignUp"}>Haven't Registered yet? Click here to sign up</Link></button></div>
+                      <div className="flex justify-end underline text-xs pt-3"><button onClick={closeModal}><Link href={"/SignUp"}>Haven&apos;t Registered yet? Click here to sign up</Link></button></div>
                       { error && (
                         <><hr class="w-[300px] h-1 mx-auto my-4 bg-gray-100 border-0 rounded" /><div className="bg-red-500 w-fit py-1 px-3 rounded-md">{error}</div></>
                       )}

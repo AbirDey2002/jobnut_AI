@@ -13,7 +13,7 @@ const FilteredJobs = async ({ query, jobs, user}) => {
       ):(
         <div className=" mx-20 mt-5 grid grid-cols-4 gap-5 justify-start">
           {filteredJobs.map((job) => (
-            <CardUser id={job._id} name={job.companyName} position={job.position} salary={job.salary} desc={job.responsibilities} applicant={user[0]._id} />
+            <CardUser key={job._id} id={job._id} name={job.companyName} position={job.position} salary={job.salary} desc={job.responsibilities} applicant={user[0]._id} />
           ))}
         </div>
       )}

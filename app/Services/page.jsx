@@ -13,7 +13,7 @@ export default function Services(){
         <div className="hover:shadow-lg shadow-inner h-[220px] w-[450px] rounded-xl flex-col place-items-center justify-center">
           <div className="mt-5 w-fit rounded-full bg-gradient-to-r from-teal-300 to-teal-500 p-4 shadow-md m-auto"><GiBrain className="text-4xl text-white"/></div>
           <div className="w-fit my-2 font-[500] mx-auto"><span>Strategy</span></div>
-          <div className="w-fit mx-5 text-xs text-center">Revolutionize hiring with our job portal's automated ML models. Generate QA and auto-evaluate candidates, ensuring only the best proceed to the final stage. Streamline your hiring process effortlessly.</div>
+          <div className="w-fit mx-5 text-xs text-center">Revolutionize hiring with our job portal&apos;s automated ML models. Generate QA and auto-evaluate candidates, ensuring only the best proceed to the final stage. Streamline your hiring process effortlessly.</div>
         </div>
         <div className="hover:shadow-lg shadow-inner h-[220px] w-[450px] rounded-xl flex-col place-items-center justify-center">
           <div className="mt-5 w-fit rounded-full bg-gradient-to-r from-teal-300 to-teal-500 p-4 shadow-md m-auto"><FaRegFileCode className="text-4xl text-white"/></div>

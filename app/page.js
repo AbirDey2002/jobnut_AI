@@ -90,7 +90,7 @@ export default function Home() {
                   <TiStarOutline className="text-2xl text-yellow-500"/>
                 </div>
                 <div className="px-5 pt-4 text-sm">
-                  &quot;I appreciate JOBNUT&apos;s commitment to professional growth. The resources available, from articles to courses, have significantly enhanced my skills. Jobnut isn't just a job portal, it's a platform that invests in your success!&quot;
+                  &quot;I appreciate JOBNUT&apos;s commitment to professional growth. The resources available, from articles to courses, have significantly enhanced my skills. Jobnut isn&apos;t just a job portal, it&apos;s a platform that invests in your success!&quot;
                 </div>
               </div>
               <div className="h-[300px] w-[250px] bg-white/95 rounded-xl shadow-xl">

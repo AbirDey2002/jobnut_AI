@@ -10,7 +10,7 @@ export default function CompanyEditJobsClient({jobs}){
 
         <div className=" m-5 mx-20 grid grid-cols-4 gap-5 justify-center">
           {jobs.map((job) => (
-            <Card id={job._id} name={job.companyName} position={job.position} salary={job.salary} desc={job.responsibilities} />
+            <Card key={job._id} id={job._id} name={job.companyName} position={job.position} salary={job.salary} desc={job.responsibilities} />
           ))}
         </div>
       )}
