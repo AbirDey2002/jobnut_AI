@@ -7,7 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      visibility: ["group-hover"],
       backgroundImage: {
+        "world-map": "url('/world-map.png')",
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
