@@ -31,7 +31,7 @@ export default function AboutUs(){
           <div className="group z-10 absolute flex flex-col h-fit justify-between">
             <div className="bg-black/25 invisible group-hover:visible p-4 text-center text-sm text-white/70 mp-8 h-[256px] transition ease-in-out delay-300 pt-[60px]">
             Say Hii to <span className="text-orange-500">Adi</span>, the driving force behind our autonomous testing job portal project.
-            With expertise in ML models for eye tracking and chatbot development, he's our diligent data collector, crafting datasets from 
+            With expertise in ML models for eye tracking and chatbot development, he is our diligent data collector, crafting datasets from 
             the ground up. His contributions ensure precision in both reports and model training.
             </div>
             <div className="bg-black/25 invisible group-hover:visible pt-[56px] text-xl w-[270px]">
