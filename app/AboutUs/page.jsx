@@ -10,6 +10,7 @@ export default function AboutUs(){
             src="/abir.jpg"
             layout="fill"
             objectFit="cover"
+            alt="member"
           />
           <div className="group z-10 absolute flex flex-col h-fit justify-between">
             <div className="bg-black/25 invisible group-hover:visible p-4 text-center text-sm text-white/70 mp-8 h-[256px] transition ease-in-out delay-300 pt-20">
@@ -25,6 +26,7 @@ export default function AboutUs(){
             src="/aditya.jpg"
             layout="fill"
             objectFit="cover"
+            alt="member"
           />
           <div className="group z-10 absolute flex flex-col h-fit justify-between">
             <div className="bg-black/25 invisible group-hover:visible p-4 text-center text-sm text-white/70 mp-8 h-[256px] transition ease-in-out delay-300 pt-[60px]">
@@ -42,6 +44,7 @@ export default function AboutUs(){
             src="/divyansh.jpg"
             layout="fill"
             objectFit="cover"
+            alt="member"
           />
           <div className="group z-10 absolute flex flex-col h-fit justify-between">
             <div className="bg-black/25 invisible group-hover:visible p-4 text-center text-sm text-white/70 mp-8 h-[256px] transition ease-in-out delay-300">
@@ -60,6 +63,7 @@ export default function AboutUs(){
             src="/ritwik.jpg"
             layout="fill"
             objectFit="cover"
+            alt="member"
           />
           <div className="group z-10 absolute flex flex-col h-fit justify-between">
             <div className="bg-black/25 invisible group-hover:visible p-4 text-center text-sm text-white/70 mp-8 h-[256px] transition ease-in-out delay-300">
@@ -78,6 +82,7 @@ export default function AboutUs(){
             src="/shraddha.jpg"
             layout="fill"
             objectFit="cover"
+            alt="member"
           />
           <div className="group z-10 absolute flex flex-col h-fit justify-between">
             <div className="bg-black/25 invisible group-hover:visible p-4 text-center text-sm text-white/70 mp-8 h-[256px] transition ease-in-out delay-300">
