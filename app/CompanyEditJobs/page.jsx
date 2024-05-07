@@ -3,7 +3,7 @@ import { getServerSession } from "next-auth";
 import { authOptions } from "../api/auth/[...nextauth]/route";
 
 const getUserByEmail = async(email) => {
-  const res = await fetch(`http://localhost:3000/api/companyUser?email=${email}`, {
+  const res = await fetch(`https://jobnut-ai.vercel.app/api/companyUser?email=${email}`, {
     method: "GET"
   });
 
@@ -13,7 +13,7 @@ const getUserByEmail = async(email) => {
 }
 
 const getJobsById = async(id) => {
-  const res = await fetch(`http://localhost:3000/api/companyJobs?id=${id}`,{
+  const res = await fetch(`https://jobnut-ai.vercel.app/api/companyJobs?id=${id}`,{
     method: "GET"
   });
 

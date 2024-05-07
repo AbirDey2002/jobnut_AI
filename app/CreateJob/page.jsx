@@ -25,7 +25,7 @@ export default function CreateJob(){
       return;
     }
     
-    const userExists = await fetch("api/userExists", {
+    const userExists = await fetch("https://jobnut-ai.vercel.app/api/userExists", {
       method: "POST",
       headers: {
         "Content-Type":"application/json",
@@ -50,7 +50,7 @@ export default function CreateJob(){
     // console.log(user);
 
     try {
-      const res = await fetch('api/job', {
+      const res = await fetch('https://jobnut-ai.vercel.app/api/job', {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -62,7 +62,7 @@ export default function CreateJob(){
 
       const {job} = await res.json();
 
-      const addJobList = await fetch('api/job',{
+      const addJobList = await fetch('https://jobnut-ai.vercel.app/api/job',{
         method: "PUT",
         headers: {
           "Content-Type": "application/json"

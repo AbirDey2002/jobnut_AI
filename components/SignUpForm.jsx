@@ -42,7 +42,7 @@ export default function SignUpForm(){
     }
 
     try {
-      const resUserExists = await fetch("api/userExists" ,{
+      const resUserExists = await fetch("https://jobnut-ai.vercel.app/api/userExists" ,{
         method: "POST",
         headers: {
           "Content-Type":"application/json",
@@ -57,7 +57,7 @@ export default function SignUpForm(){
         return;
       }
 
-      const res = await fetch('api/user', {
+      const res = await fetch('https://jobnut-ai.vercel.app/api/user', {
         method: 'POST',
         headers: {
           "Content-Type": "application/json"

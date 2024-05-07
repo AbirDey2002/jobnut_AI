@@ -2,7 +2,7 @@ import EditUserProfile from "@/components/EditUserProfile";
 import { getServerSession } from "next-auth/next";
 
 const getUserByEmail = async(email) => {
-  const res = await fetch(`http://localhost:3000/api/userUser?email=${email}`, {
+  const res = await fetch(`https://jobnut-ai.vercel.app/api/userUser?email=${email}`, {
     method: "GET"
   });
 

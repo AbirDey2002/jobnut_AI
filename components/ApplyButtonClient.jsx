@@ -10,7 +10,7 @@ export default function ApplyButtonClient({id, applicant, status}){
 
   const subscribe = async() => {
 
-    const res = await fetch(`http://localhost:3000/api/applyJob?id=${id}&applicant_id=${applicant}`, {
+    const res = await fetch(`https://jobnut-ai.vercel.app/api/applyJob?id=${id}&applicant_id=${applicant}`, {
       method: "PUT",
     });
   };
@@ -19,7 +19,7 @@ export default function ApplyButtonClient({id, applicant, status}){
     const confirmed = confirm('Are you sure?');
 
     if (confirmed){
-      const res = await fetch(`http://localhost:3000/api/applyJob?id=${id}&applicant_id=${applicant}`, {
+      const res = await fetch(`https://jobnut-ai.vercel.app/api/applyJob?id=${id}&applicant_id=${applicant}`, {
         method: "DELETE",
       });      
     }

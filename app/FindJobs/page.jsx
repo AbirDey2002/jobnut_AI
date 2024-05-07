@@ -3,7 +3,7 @@ import FindJobsClient from "@/components/FindJobsClient";
 import { getServerSession } from "next-auth";
 
 const getUserByEmail = async(email) => {
-  const res = await fetch(`http://localhost:3000/api/companyUser?email=${email}`, {
+  const res = await fetch(`https://jobnut-ai.vercel.app/api/companyUser?email=${email}`, {
     method: "GET"
   });
 
@@ -13,7 +13,7 @@ const getUserByEmail = async(email) => {
 }
 
 const getAllJobs = async () => {
-  const res = await fetch('http://localhost:3000/api/job',{
+  const res = await fetch('https://jobnut-ai.vercel.app/api/job',{
     method: "GET"
   });
 

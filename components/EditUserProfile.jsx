@@ -21,7 +21,7 @@ export default function EditUserProfile({id, name, email, type, bio, x, site, pr
     e.preventDefault();
 
     try {
-      const res = await fetch(`http://localhost:3000/api/userUser?id=${id}`,{
+      const res = await fetch(`https://jobnut-ai.vercel.app/api/userUser?id=${id}`,{
         method:"PUT",
         headers: {
           "Content-type": "application/json",
@@ -49,7 +49,7 @@ export default function EditUserProfile({id, name, email, type, bio, x, site, pr
         return;
       }
 
-      const res = await fetch(`http://localhost:3000/api/user?id=${id}`,{
+      const res = await fetch(`https://jobnut-ai.vercel.app/api/user?id=${id}`,{
         method:"PUT",
         headers: {
           "Content-type": "application/json",

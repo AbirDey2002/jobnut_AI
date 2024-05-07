@@ -3,7 +3,7 @@ import { getServerSession } from "next-auth/next";
 import { redirect } from "next/navigation";
 
 const getUserByEmail = async(email) => {
-  const res = await fetch(`http://localhost:3000/api/companyUser?email=${email}`, {
+  const res = await fetch(`https://jobnut-ai.vercel.app/api/companyUser?email=${email}`, {
     method: "GET"
   });
 

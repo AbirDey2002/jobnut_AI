@@ -10,7 +10,7 @@ export default function DeleteButton({id}){
     const confirmed = confirm('Are you sure?');
 
     if (confirmed){
-      const res = await fetch(`http://localhost:3000/api/companyJobs?id=${id}`, {
+      const res = await fetch(`https://jobnut-ai.vercel.app/api/companyJobs?id=${id}`, {
         method: "DELETE",
       });
 

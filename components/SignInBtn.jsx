@@ -43,7 +43,7 @@ export default function SignInBtn(){
         return;
       }
 
-      const resUserExists = await fetch("api/userExists", {
+      const resUserExists = await fetch("https://jobnut-ai.vercel.app/api/userExists", {
         method: "POST",
         headers: {
           "Content-Type":"application/json",

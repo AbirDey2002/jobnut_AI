@@ -11,7 +11,7 @@ export default function CompanyDashboardClient({sessionEmail}){
     e.preventDefault();
 
     try {
-      const userExists = await fetch("api/userExists", {
+      const userExists = await fetch("https://jobnut-ai.vercel.app/api/userExists", {
         method: "POST",
         headers: {
           "Content-Type":"application/json",
@@ -35,7 +35,7 @@ export default function CompanyDashboardClient({sessionEmail}){
     e.preventDefault();
 
     try {
-      const userExists = await fetch("api/userExists", {
+      const userExists = await fetch("https://jobnut-ai.vercel.app/api/userExists", {
         method: "POST",
         headers: {
           "Content-Type":"application/json",
@@ -59,7 +59,7 @@ export default function CompanyDashboardClient({sessionEmail}){
     e.preventDefault();
 
     try {
-      const userExists = await fetch("http://localhost:3000/api/userExists", {
+      const userExists = await fetch("https://jobnut-ai.vercel.app/api/userExists", {
         method: "POST",
         headers: {
           "Content-Type":"application/json",

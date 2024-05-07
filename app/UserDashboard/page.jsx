@@ -2,7 +2,7 @@ import UserDashboardClient from "@/components/UserDashboardClient";
 import { getServerSession } from "next-auth";
 
 const getIdByEmail = async(email) => {
-  const res = await fetch(`http://localhost:3000/api/companyUser?email=${email}`,{
+  const res = await fetch(`https://jobnut-ai.vercel.app/api/companyUser?email=${email}`,{
     method: "GET"
   });
 
@@ -11,7 +11,7 @@ const getIdByEmail = async(email) => {
 }
 
 const getJobsById = async(id) => {
-  const res = await fetch(`http://localhost:3000/api/appliedJobs?id=${id}`,{
+  const res = await fetch(`https://jobnut-ai.vercel.app/api/appliedJobs?id=${id}`,{
     method:"GET"
   });
 
